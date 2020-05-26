@@ -1,0 +1,16 @@
+
+Install Apache
+sudo apt update
+sudo apt install apache2
+
+Folder Access right
+chown www-data.www-data /var/www/html
+
+AccessPath:
+/var/www/html/files/'passcode'$'\n'
+
+tip: no way to change auto created file name, and access path should under html folder
+
+Access file name run.jar or run.py
+
+Access file input."input file type"
